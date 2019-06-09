@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Lamborghini",
+    "image": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Porsche 911",
+    "image": "https://images.pexels.com/photos/2127740/pexels-photo-2127740.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Ford GT",
+    "image": "https://robbreportedit.files.wordpress.com/2016/04/01-ford-gt-front-three-quarter1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dodge (SRT) Vipe",
+    "image": "https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54cb1d27a519c_-_analog-sports-cars-01-1013-de.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mercedes-Benz AMG GT R",
+    "image": "https://blogs-images.forbes.com/jimgorzelany/files/2017/10/Mercedes-Benz-1200x675.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bugatti Chiron",
+    "image": "https://cdn.vox-cdn.com/thumbor/_65I_faXpWGFah-ezumTwv7m76s=/0x0:3000x2254/920x613/filters:focal(1260x887:1740x1367):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58925671/02_BUGATTI_Chiron_Sport_34_front_WEB.0.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Bugs Bunny",
+    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
+  },
+  {
+    "id": 8,
+    "name": "Audi TT RS",
+    "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjimgorzelany%2Ffiles%2F2017%2F10%2F2018-Audi-TT-RS-Coupe-2458.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Lamborghini Huracan Performante",
+    "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjimgorzelany%2Ffiles%2F2017%2F10%2Fcut-54-Lambo-474145.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ferrari AT 70",
+    "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjimgorzelany%2Ffiles%2F2017%2F10%2Fcut-57-Ferrari-812-Superfast.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Audi",
+    "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3a%2f%2fcdni.autocarindia.com%2fExtraImages%2f20180905055528_showcar_3_0.jpg&h=578&w=872&c=1"
+  },
+  {
+    "id": 12,
+    "name": "Chevrolet Corvette ZR1",
+    "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F99ebe31da6594b2bbfe2944db8909411%2F960x0.jpg%3Ffit%3Dscale"
+  }
+]
