@@ -9,7 +9,8 @@ class App extends Component {
   // Setting this.state.cars to the cars json array
   state = {
     cars,
-    clicked: []
+    clicked: [],
+    curScore: 0
     // carsArray: this.shuffleCars
   };
 
@@ -18,27 +19,52 @@ class App extends Component {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
-    console.log(array);
+    // console.log(array);
     return array;
   }
 
   handleClick = id => {
-    let carsShuffled = this.shuffleCars(cars);
+    // console.log("Image clicked " + id);
+    if (this.state.clicked.indexOf(id) === -1) {
+      this.setState({ clicked: this.state.clicked.concat(id) });
+      console.log("ID clicked: " + this.state.clicked.concat(id));
+      this.handleIncrement();
+    } else {
+      console.log("clicked it twice you lose, restart");
+      this.handleRestart();
+    }
+    const carsShuffled = this.shuffleCars(cars);
     this.setState({ cars: carsShuffled });
-    console.log("Image clicked " + id);
   };
+
+  handleIncrement = () => {
+    const newScore = this.state.curScore + 1;
+    this.setState({ curScore: newScore });
+    console.log(newScore);
+  };
+
+handleRestart = () => {
+  console.log("RESTART")
+  this.setState({
+    curScore: 0,
+    clicked: []
+  });
+  this.shuffleCars(cars);
+};
+
 
   render() {
     return (
       <Wrapper>
         <Heading>Sports Cars</Heading>
+        {/* <div className="jumbotron">aqui</div> */}
         <h2>
           Click on an image to earn points, but don't click on any more than
           once!
         </h2>
+        <p>SCORE: {this.state.curScore}</p>
         {this.state.cars.map(car => (
           <CarsCard
-            // removeFriend={this.removeFriend}
             onClick={this.handleClick}
             id={car.id}
             key={car.id}
