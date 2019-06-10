@@ -6,12 +6,10 @@ import Heading from "./components/Heading/heading";
 import cars from "./cars.json";
 
 class App extends Component {
-  // Setting this.state.cars to the cars json array
   state = {
     cars,
     clicked: [],
     curScore: 0
-    // carsArray: this.shuffleCars
   };
 
   shuffleCars(array) {
@@ -56,14 +54,13 @@ handleRestart = () => {
   render() {
     return (
       <Wrapper>
-        <Heading>Sports Cars</Heading>
-        {/* <div className="jumbotron">aqui</div> */}
+        <Heading>XXX</Heading>
+        
         <h2>
-          Click on an image to earn points, but don't click on any more than
-          once!
+        SCORE: {this.state.curScore}
         </h2>
-        <p>SCORE: {this.state.curScore}</p>
-        {this.state.cars.map(car => (
+        <div className="card-container">
+                  {this.state.cars.map(car => (
           <CarsCard
             onClick={this.handleClick}
             id={car.id}
@@ -72,6 +69,8 @@ handleRestart = () => {
             image={car.image}
           />
         ))}
+        </div>
+
       </Wrapper>
     );
   }
