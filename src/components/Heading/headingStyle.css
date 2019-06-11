@@ -2,7 +2,7 @@
   text-align: center;
   font-size: 3rem;
   color: red;
-  background-image: url("track.jpg");
+  background-image: url("/images/track.jpg");
   background-repeat: no-repeat;
   background-size: 100%, cover;
 }

@@ -19,7 +19,7 @@ class App extends Component {
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
-  }
+  };
 
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {

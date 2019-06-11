@@ -1,6 +1,6 @@
 .wrapper {
     background: #ECEFF1;
-    background-image: url("real_cf.png");
+    background-image: url("/images/real_cf.png");
     justify-content: space-around;
     overflow: auto;
   }
