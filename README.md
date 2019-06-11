@@ -4,8 +4,8 @@
 A memory game with React. Application's UI is defined into components, manages component states, and responds to user events.
 
 ### Demo 
-* Interact with completed app [demo](XXX).
-![Image](/public/assets/images/mongoScraper.png)
+* Interact with completed app [demo](https://shielded-meadow-94948.herokuapp.com/).
+![Image](/public/images/gamePage.png)
 
 ### What this project uses
 This project uses Nodejs, JavaScript, HTML, CSS, JQuery, Express, JSON, MySQL, React, NPM packages and deployed to Heroku.
